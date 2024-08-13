@@ -123,7 +123,7 @@ font-weight: 900px;
 /* main-style */
 main{
     max-width: 1014px;
-    margin: 0 198px;
+    margin: 0 198;
  
 
 } 
@@ -148,9 +148,8 @@ main{
 }
 main{
     margin: 100px;
-    padding: 0;
+    padding: 0px;
   background-color: black;
-  color: rgb(255, 255, 255);
   text-align: center;
 }
 .habits-section{
@@ -197,19 +196,7 @@ color: rgba(255, 255, 255, 0.5);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* main */
- main
 .section-title{
     font-size: 48px;
     font-weight: 900px;
@@ -227,25 +214,29 @@ color: rgba(255, 255, 255, 0.5);
     margin-top: 100px ;
  }  
 /* card-information */
-.main-2{
+.article-2{
 margin-top: -600px;
 }
 .card-1{
-    margin-top: -100px;
-margin: -100px -200px;
+    margin: 0 auto;
 background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 1600px;
+height: 450px;
 }
 .card {
     display: flex;
     background-color: rgb(34, 34, 34);
     border-radius: 15px;
     overflow: hidden;
-    width: 70%;
-    max-width: 900px;
+    width: 1060px;
+    height: 371px; 
+position: static;
+margin: 62px 0;
+flex-grow: 0;
+align-self:stretch;
+flex: none;
     box-shadow: 0 4px 20px rgb(15, 15, 15);
 }
 .card-content {
@@ -264,10 +255,10 @@ height: 1600px;
     text-align: left;
 
 }
-.card content p {
+.card-content p {
     font-size: 14px;
     color: rgb(255, 255, 255,0.5);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align:left;
 }
 .cta-button{
@@ -281,15 +272,86 @@ height: 1600px;
     max-width: 150px;
 }
 .card-image img{
-    width: 366px;
-    height: 350px;
-    margin-top: 30px;
-    margin-bottom: 29px;
-    margin-right: 32px;
-    object-fit: cover;
-    border-radius: 18px;
+     width: 366px;
+    height: 312px;
+    margin: 30 30 30 10;
+    top: 30px;
+    object-fit: cover; 
+    border-radius: 18px; 
     background: url(4);
 }
 .card-image{
     flex: 1;
+}
+
+/* trainings-part */
+
+.training-about{
+   
+    position: static;
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 58px 0px;
+}
+.training-about h1{
+    color:rgb(255, 255, 255) ;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.training-about p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+/* BMI */
+.bmi{
+position: static;
+width: 353px;
+height: 58px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;}
+/* position: static;
+width: 671px;
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 88px 0px; */
+
+.bmi h1{
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
 }
